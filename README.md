@@ -1,9 +1,9 @@
-#Análise de código.
+# Análise de código.
 
 Header utilizado no site.
 
 Código adicionado no Header referente ao hostsite Wedding Simplificator
-
+```php
   <?php if ( isset($_GET['route'])
 					 && $_GET['route'] == 'weddingsimplificator/home'
 					 || isset($_GET['_route_'])
@@ -26,6 +26,7 @@ Código adicionado no Header referente ao hostsite Wedding Simplificator
 	<script src="catalog/view/javascript/facebook.js" type="text/javascript"></script>
 	<script type="text/javascript">facebook.init();</script>
   <?php } ?>
+```
 
 Footer utilizado no site.
 
