@@ -1,6 +1,7 @@
 # Análise de código.
 
 Header utilizado no site.
+[código](https://github.com/bighouseweb/oamoresimples-seo/blob/master/header.tpl)
 
 Código adicionado no Header referente ao hostsite Wedding Simplificator
 ```php
@@ -27,13 +28,14 @@ Código adicionado no Header referente ao hostsite Wedding Simplificator
 ```
 
 Footer utilizado no site.
+[código](https://github.com/bighouseweb/oamoresimples-seo/blob/master/footer.tpl)
 
 Código adicionado no Footer referente ao hostsite Wedding Simplificator,
 
 ```php
   <?php if ( isset($_GET['route']) && $_GET['route'] == 'weddingsimplificator/home' || isset($_GET['_route_']) && $_GET['_route_'] == 'wedding-simplificator' ) { ?>
-	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-     <script src="/catalog/view/javascript/webflow.js" type="text/javascript"></script>
-     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script src="/catalog/view/javascript/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <?php } ?>
 ```
