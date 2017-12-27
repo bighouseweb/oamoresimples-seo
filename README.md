@@ -4,10 +4,7 @@ Header utilizado no site.
 
 Código adicionado no Header referente ao hostsite Wedding Simplificator
 ```php
-  <?php if ( isset($_GET['route'])
-					 && $_GET['route'] == 'weddingsimplificator/home'
-					 || isset($_GET['_route_'])
-					 && $_GET['_route_'] == 'wedding-simplificator' ) { ?>
+  <?php if ( isset($_GET['route']) && $_GET['route'] == 'weddingsimplificator/home' || isset($_GET['_route_']) && $_GET['_route_'] == 'wedding-simplificator' ) { ?>
 
 	<meta property="fb:app_id" content="757761564278488" />
 	<meta property="og:type" content="website" />
@@ -25,6 +22,7 @@ Código adicionado no Header referente ao hostsite Wedding Simplificator
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
 	<script src="catalog/view/javascript/facebook.js" type="text/javascript"></script>
 	<script type="text/javascript">facebook.init();</script>
+
   <?php } ?>
 ```
 
